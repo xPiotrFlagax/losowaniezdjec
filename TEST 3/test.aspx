@@ -1,0 +1,76 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="test.aspx.cs" Inherits="TEST_3.test" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="wygląd.css" />
+    <title>LOSOWANIE MEMÓW</title>
+
+
+
+<style>
+
+
+</style>
+</head>
+<body>
+
+
+
+      <center>
+
+               <br />
+                  <h1 class="czcionka">WITAMY!!!</h1>
+
+
+
+<button class="guzik" onclick="myFunction()">LOSUJ!</button>
+
+<div id="myDIV">
+   <%--<img src="/MEMY/mem1.png" alt="BLAD" ID ="Image2" CssClass="nie_widac" runat="server">--%>
+</div>
+
+         
+
+  
+
+
+    <script link="test.aspx" type ="text/javascript" lang="Javascript">
+        
+
+        function myFunction() {
+            var elementy = new Array(
+                '<IMG SRC="/MEMY/testowyplik1.jpg">',
+                '<IMG SRC="/MEMY/testowyplik2.jpg">',
+                '<IMG SRC="/MEMY/testowyplik3.jpg">',
+                '<IMG SRC="/MEMY/testowyplik4.jpg">',
+
+            );
+
+
+
+
+
+
+
+            var liczba = 0;
+            liczba = Math.floor(Math.random() * elementy.length);
+            document.write(elementy[liczba]);
+
+
+        }
+
+//function myFunction() {
+//  var x = document.getElementById("myDIV");
+//  if (x.style.display === "none") {
+//    x.style.display = "block";
+//  } else {
+//    x.style.display = "none";
+//  }
+//}
+</script>
+
+</body>
+</html>
+

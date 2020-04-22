@@ -1,0 +1,47 @@
+﻿body {
+    background-image: url(http://elitagym.pl/wp-content/uploads/2019/01/czarne-tlo-170076.jpg);
+    background-color: #cccccc;
+   
+}
+
+
+.czcionka {
+    font-size: 40px;
+    text-align: center;
+    color: #04d66d;
+    position:relative;
+    top: -35px;
+}
+
+.guzik {
+    background-color: #9db500;
+    margin: 20px 0;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid #0032d8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top:460px;
+    left:650px;
+}
+
+
+
+.widac {
+    visibility: visible;
+    
+}
+
+.nie_widac {
+    visibility: hidden;
+}
+
+
+
+
